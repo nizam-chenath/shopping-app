@@ -8,6 +8,7 @@ import Contact from './components/Contact'
 import {Navigate} from 'react-router-dom'
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ProductDetails from './components/ProductDetails';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Routes>
             <Route exact path='/' element={<Home/>} />
             <Route path='/products' element={<Products/>} />
-            <Route path='/products:id' element={<Products/>} />
+            <Route path='/products/:id' element={<ProductDetails/>} />
             <Route path='/about' element={<About/>} />
             <Route path='/contact' element={<Contact/>} />
             {/* <Navigate replace to="/" /> */}
