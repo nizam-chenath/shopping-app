@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import Cartbtn from './buttons/Cartbtn'
 import Login from './buttons/Login'
 import Signup from './buttons/Signup'
 
@@ -31,6 +32,7 @@ const Header = () => {
     <NavLink className="navbar-brand mx-auto fw-bold" to="/">ShoppingApp</NavLink>
     <Login/>
     <Signup/>
+    <Cartbtn/>
     </div>
   </div>
 </nav>
