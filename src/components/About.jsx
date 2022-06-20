@@ -8,7 +8,7 @@ const About = () => {
         <div className="row">
           <div className="col-md-6">
             <h1 className="text-primary fw-bold mb-4">About Us</h1>
-            <p className="lead">
+            <p className="lead mb-4">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cu
               m est nobis corrupti quibusdam asperiores. Delectus sim
               ilique magnam cupiditate porro molestiae voluptates, reic
@@ -18,9 +18,9 @@ const About = () => {
               um vel deleniti molestias!
 
             </p>
-            <NavLink to="/contact" className="btn btn-outline-primary">Contact Us</NavLink>
+            <NavLink to="/contact" className="btn btn-outline-primary px-3">Contact Us</NavLink>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 d-flex justify-content-center">
             <img src="/assets/images/about.webp" alt="" height="400px" width="400px"/>
           </div>
         </div>

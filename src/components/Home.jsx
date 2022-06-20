@@ -1,4 +1,5 @@
 import React from 'react'
+import Products from './Products'
 
 const Home = () => {
   return (
@@ -33,6 +34,7 @@ const Home = () => {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+<Products/>
     </div>
   )
 }
