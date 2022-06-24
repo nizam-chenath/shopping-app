@@ -2,6 +2,8 @@ import React from 'react'
 import { useParams } from 'react-router'
 import DATA from '../Data';
 import { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { addItem, delItem } from '../redux/actions/action';
 
 const ProductDetails = () => {
     const [cartBtn, setCartBtn ] = useState("Add to Cart")
