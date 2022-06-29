@@ -13,11 +13,15 @@ const ProductDetails = () => {
     const productDetail = DATA.filter(x => x.id == productId.id)
     const product = productDetail[0];
     console.log(product);
-
+    
+    // we need to store useDispatch in a variable
+    const dispatch = useDispatch();
     const handleClick=(product)=>{
         if(cartBtn === "Add to Cart"){
+            dispatch(addItem(product))
             setCartBtn("Remove from Cart")
         }else{
+            dispatch(delItem(product))
             setCartBtn("Add to Cart")
         }
 

@@ -9,6 +9,7 @@ import {Navigate} from 'react-router-dom'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ProductDetails from './components/ProductDetails';
+import Cart from './components/Cart';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route exact path='/' element={<Home/>} />
             <Route path='/products' element={<Products/>} />
             <Route path='/products/:id' element={<ProductDetails/>} />
+            <Route path='/cart' element={<Cart/>} />
             <Route path='/about' element={<About/>} />
             <Route path='/contact' element={<Contact/>} />
             {/* <Navigate replace to="/" /> */}
