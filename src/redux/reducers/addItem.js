@@ -1,6 +1,6 @@
 const addItem = [];
 
-const addItems = (state=addItem, action) =>{
+const addItems = (state = addItem, action) =>{
   
     switch(action.type){
         case "ADDITEM" : return[
@@ -10,8 +10,8 @@ const addItems = (state=addItem, action) =>{
         break;
 
         case "DELITEM" : 
-        return state = state.filter((x)=>{
-            return x.id !== action.payload.id
+            return state = state.filter((x)=>{
+                return x.id !== action.payload.id
         })
         break;
 

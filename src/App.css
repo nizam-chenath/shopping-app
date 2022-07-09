@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+/* footer style */
+
+.footer-container{
+  background-color: rgb(160, 154, 154);
+  color: black;
+  width: 100vw;
+  height: 100px;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+}
+.first-section{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.first-section p{
+  line-height: 3%;
+}
+
