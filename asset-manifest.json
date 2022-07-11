@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/shopping-app/static/css/main.78bb84b6.css",
+    "main.js": "/shopping-app/static/js/main.96e6f3ae.js",
+    "static/js/787.8f115d99.chunk.js": "/shopping-app/static/js/787.8f115d99.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/shopping-app/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/shopping-app/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/shopping-app/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/shopping-app/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/shopping-app/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/logo.svg": "/shopping-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/shopping-app/index.html",
+    "main.78bb84b6.css.map": "/shopping-app/static/css/main.78bb84b6.css.map",
+    "main.96e6f3ae.js.map": "/shopping-app/static/js/main.96e6f3ae.js.map",
+    "787.8f115d99.chunk.js.map": "/shopping-app/static/js/787.8f115d99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78bb84b6.css",
+    "static/js/main.96e6f3ae.js"
+  ]
+}
