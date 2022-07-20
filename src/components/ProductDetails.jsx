@@ -10,13 +10,15 @@ const ProductDetails = () => {
     {/* need a product  id which is pass from the product page */}
 
     const productId = useParams();
-    const productDetail = DATA.filter(x => x.id == productId.id)
+    const productDetail = DATA.filter(x => x.id === productId.id)
     const product = productDetail[0];
     console.log(product);
     
     // we need to store useDispatch in a variable
     const dispatch = useDispatch();
+    
     const handleClick=(product)=>{
+
         if(cartBtn === "Add to Cart"){
             dispatch(addItem(product))
             setCartBtn("Remove from Cart")
